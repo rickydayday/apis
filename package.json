@@ -1,0 +1,18 @@
+{
+  "name": "apicreditbank",
+  "version": "1.0.0",
+  "description": "RestApi",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Erickoyugi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.19"
+  }
+}
