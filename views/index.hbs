@@ -1,26 +1,481 @@
+
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>CreditBank</title>
-	<!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="title" content="Jenga API: Payment Gateway API Integration Services | Website Payment Solutions" />
+<meta name="keywords" content="Jenga API, payment gateway api integration, add payment gateway to website, api integration services, payment integration api" />
+<meta name="author" content="https://right-here.com" />
+<meta name="publisher" content="https://right-here.com" />
+<meta name="copyright" content="finserve.com" />
+<meta name="creation_Date" content="30/07/2018" />
+<meta name="expires" content="" />
+
+<title>Jenga API: Payment Gateway API Integration Services | Website Payment Solutions</title>
+
+<meta name="twitter:url" content="https://jengaapi.io/" />
+<meta property="og:url" content="https://jengaapi.io/" />
+<meta name="twitter:title" content="Jenga API | Home Page | Payment Gateway Integration Mobile App" />
+<meta property="og:title" content="Jenga API | Home Page | Payment Gateway Integration Mobile App" />
+<meta name="twitter:description" content="One Stop Solution For All Your Financial Transactions- Jenga API, Payment Gateway Integration App-  integrate credit card payment or online payment into website" />
+<meta property="og:description" content="One Stop Solution For All Your Financial Transactions- Jenga API, Payment Gateway Integration App-  integrate credit card payment or online payment into website" />
+<meta name="twitter:card" content="summary" />
+<meta property="og:type" content="website" />
+<meta name="description" content="Integrate Jenga online payment into website for easy transactions to Accept Cards, Mobile Money, Bank Account Payments from your customers in a simple and convenient way."/>
+<!-- GOOGLE WEBMASTER -->
+<meta name="google-site-verification" content="MCf0Fs6b7AiLjs-ofp44Qc9JkWp6vKg8rtfz6YLzgVA" />
+
+<meta name="amp-google-client-id-api" content="gtag"> <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+
+<!--StyleSheet-->
+<link rel="canonical" href="https://www.jengaapi.io/" />
+
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600,700,900" rel="stylesheet">
+<link href="/css" rel="stylesheet">
+<!--Javascript-->
+<script src="/googlejs" type="text/Javascript"></script>
+<!-- CSS only -->
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous"> -->
+
+<!-- GOOGLE ANALYTICS -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127059875-1"></script>
+
+<!-- Global site tag (gtag.js) - Google Ads: 939215125 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-939215125"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-939215125'); </script>
+
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-127059875-1');
+</script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124252128-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-124252128-1');
+</script>
+
+<!-- Start of jengahq Zendesk Widget script --> 
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=9b31217b-0efe-4a1c-986e-912cf277f0bc"> </script> 
+<!-- End of jengahq Zendesk Widget script -->
 </head>
-<body>
-<style>
-	.bg-light{
-		background-color: #FFA500 !important;
-	}
+
+<style type="text/css">
+.navbar-light{
+	background-color: #FFA500 !important;
+}
 </style>
 
-<nav class="navbar bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="https://creditbank.co.ke/assets/img/Credit%20Bank%20PLC%20Logo.svg" alt="" class="d-inline-block align-text-top">
-      Credit Bank API
-    </a>
+<body>
+<div class="mainwrapper">
+<!-- Banner Section-->
+
+<!-- Header Section-->
+<header class="mainhead">
+  <div class="topheader">
+    <nav class="navbar navbar-expand-lg navmain navbar-light">
+      <div class="container"> 
+        <a href="index.php" class="navbar-brand"><img src="https://creditbank.co.ke/assets/img/Credit%20Bank%20PLC%20Logo.svg" width="30" height="30"  alt="Jenga Web Services for Developers"></a>
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbar9"> <span class="navbar-toggler-icon"></span> </button>
+        <div class="navbar-collapse collapse" id="navbar9">
+          <ul class="navbar-nav navigation ml-auto">
+            <li class="nav-item"><a class="nav-link " href="index.php">Home</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">APIs</a>
+              <ul class="dropdown-menu multi-column columns">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <ul class="multi-column-dropdown column">
+                      <li class="nav-item"><a class="" href="sendmoney.php">
+                        <div class="nav-icon money"></div>
+                        <span class="leftlink">
+                      <div class="link">Send Money</div>
+                    </span>
+                     </a></li>
+                     <li class="nav-item"><a class="" href="recievepays.php">
+                        <div class="nav-icon payments"></div>
+                        <span class="leftlink">
+                      <div class="link">Receive Payments</div>
+                    </span>
+                     </a></li>
+                     <li class="nav-item"><a class="" href="buygoods.php">
+                        <div class="nav-icon buygoods"></div>
+                        <span class="leftlink">
+                      <div class="link">Buy Goods, Pay Bills, Get Airtime</div>
+                    </span>
+                     </a></li>
+                    </ul>
+                  </div>
+                  <div class="col-sm-6">
+                    <ul class="multi-column-dropdown">
+                      <li class="nav-item"><a class="" href="loans.php">
+                        <div class="nav-icon api"></div>
+                        <span class="leftlink">
+                      <div class="link">Credit</div>
+                    </span>
+                     </a></li>
+                      <li class="nav-item"><a class="" href="regtech.php">
+                        <div class="nav-icon regtech"></div>
+                        <span class="leftlink">
+                      <div class="link">RegTech: KYC, AML & CDD</div>
+                    </span>
+                     </a></li>
+                      <li class="nav-item"><a class="" href="accountaapi.php">
+                        <div class="nav-icon notification"></div>
+                        <span class="leftlink">
+                      <div class="link">Account Services</div>
+                    </span>
+                     </a></li>
+                    </ul>
+                  </div>
+                </div>
+              </ul>
+            </li>  
+            <li class="nav-item"><a class="nav-link" href="https://developer.jengaapi.io/docs" target="_blank">Developer</a></li>
+            <li class="nav-item"><a class="nav-link " href="pricing.php">Pricing</a></li>
+            <li class="nav-item"><a class="nav-link" href="https://developer.jengaapi.io/reference" target="_blank" >Resources</a></li>
+            <li> <a href="https://support.jengahq.io/hc/en-us/categories/4781880496913-FAQs" target="_blank">FAQs</a></li>
+            <li> <a href="https://support.jengahq.io" target="_blank">Contact Us</a></li>
+          </ul>
+         <ul class="navbar-nav navigation loginnav ml-auto">
+            <li class="nav-item"><a class="nav-link btn btn-small loginlink" href="https://jengahq.io/" target="_blank">Login</a></li>
+            <li class="nav-item"><a class="nav-link btn btn-success loginlink" href="https://v3.jengahq.io/" target="_blank">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </div>
-</nav>
+</header> 
+
+<!-- Banner Section-->
+<section class="bannermain">
+  <div class="container">
+    <div class="row">
+     <div class="col-lg-5 col-md-6">
+        <div class="banner-info" data-aos="fade-up" data-aos-duration="1500">
+          <h1>Jenga</h1>
+          <p>Swahili [ j/ɛ/n - ga̝ ]</p>
+          <p>Translation: <span>build, construct, give life to, mould, form or create.</span></p>
+          <h4>In a sentence</h4>
+          <h2>"Developers <span>jenga</span> awesome applications and digital experiences using <span>Jenga</span> API"</h2>
+          <a href="sendmoney.php" class="btn btn-primary btn-blue">Learn more</a> 
+        </div>
+      </div>
+    </div>
+  </div>
+</section> 
+
+<section class="apisection section">
+  <div class="container">
+    <div class="row">
+      <aside class="col-lg-6 col-md-6" data-aos="fade-right" data-aos-duration="1000">
+        <h2>One API to build them all</h2>
+        <div class="row">
+          <aside class="col-lg-4 col-md-6">
+            <div class="imgBlock">
+              <img src="images/jenga-tractor.svg" alt="Jenga Web Services for Developers">
+            </div>
+          </aside>
+          <aside class="col-lg-8 col-md-6">
+            <p><span>Jenga is engineered to create simple APIs</span> that perform multiple complex functions. From a single payment APIs that make payments to mobile wallets, banks and cards to single airtime APIs that purchase airtime across multiple telcos. </p>
+            <a href="https://v3.jengahq.io/" target="_blank" class="btn btn-primary btn-pink">Get Started</a> 
+          </aside>
+        </div>
+      </aside>
+      <aside class="col-lg-6 col-md-6" data-aos="fade-left" data-aos-duration="1000">
+        <h2>Simple is, what simple does</h2>
+        <div class="row">
+          <aside class="col-lg-4 col-md-6">
+            <div class="imgBlock">
+              <img src="images/jenga-simple.svg" alt="Jenga Web Services for Developers">
+            </div>
+          </aside>
+          <aside class="col-lg-8 col-md-6">
+            <p>Simple guides, API references and dashboards that get you started in minutes. We abstract all the complexity for you.</p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <a href="https://developer.jengaapi.io/" class="btn btn-primary btn-green" target="_blank">Checkout the docs</a> 
+          </aside>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section cont-lg-rw">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" data-aos="fade-right">
+        <h2>Build once, run anywhere</h2>
+      </div>
+      <aside class="col-lg-4 col-md-6" data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="imgBlock">
+          <img src="images/jenga-build.svg" alt="Jenga Web Services for Developers">
+        </div>
+      </aside>
+      <aside class="col-lg-4 col-md-6" data-aos="fade-right"  data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <p>JengaAPIs speak many languages. Literally. JengaAPIs are pre-integrated into the financial, identity, credit and payment systems across Africa. With a single point integration on Jenga, you do business in multiple countries as though you were actually there.</p>
+        <!-- <a href="https://dash.readme.io/to/finserve/signup" target="_blank" class="btn btn-primary btn-pink">Get started</a>  -->
+      </aside>
+      <aside class="col-lg-4 col-md-6" data-aos="fade-left"  data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="card tab-card">
+        <div class="card-header tab-card-header">
+          <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" id="curl-tab" data-toggle="tab" href="#curl" role="tab" aria-controls="Curl" aria-selected="true">Curl</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="python-tab" data-toggle="tab" href="#python" role="tab" aria-controls="Python" aria-selected="false">Python</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="javascript-tab" data-toggle="tab" href="#javascript" role="tab" aria-controls="Javascript" aria-selected="false">Javascript</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="ruby-tab" data-toggle="tab" href="#ruby" role="tab" aria-controls="Ruby" aria-selected="false">Ruby</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="curl" role="tabpanel" aria-labelledby="curl-tab">
+            <pre class="tomorrow-night hub-lang hub-lang-curl">
+              <span class="cm-s-tomorrow-night"><span class="cm-s-tomorrow-night">
+              <span class="cm-builtin">curl</span> 
+              <span class="cm-attribute">--request</span> POST \
+            <span class="cm-attribute">--url</span> https://api-test.equitybankgroup.com/identity-sandbox/v2/token \
+            <span class="cm-attribute">--header</span> <span class="cm-string">'authorization: <span class="hub-code-param-empty">Authorization</span>'</span> \
+            <span class="cm-attribute">--header</span> <span class="cm-string">'content-type: <span class="hub-code-param-empty">Content-Type</span>'</span></span></span>
+            </pre>            
+          </div>
+          <div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="python-tab">
+             <img src="images/Screen-Shot2.png" alt="Jenga Web services">          
+          </div>
+          <div class="tab-pane fade" id="javascript" role="tabpanel" aria-labelledby="javascript-tab">
+             <img src="images/Screen-Shot2.png" alt="Jenga Web services">            
+          </div>
+          <div class="tab-pane fade" id="ruby" role="tabpanel" aria-labelledby="ruby-tab">
+             <img src="images/Screen-Shot2.png" alt="Jenga Web services">           
+          </div>
+
+        </div>
+      </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+      <div class="secarea">
+        <div class="fitpic fitpicMagin" data-aos="fade-down"><img src="images/jenga-security.svg" alt="Jenga Web Services for Developers"></div>
+        <div class="secarea-text" data-aos="zoom-in" data-aos-duration="2000">
+        <h2>Security and trust</h2>
+          <p>Trust is at the heart of everything we do. We take the hassle of secure processing through our APIs.<br> We are certified according to the highest global security standards (PCI DSS Level 1).</p>
+          <a href="https://developer.jengaapi.io/" class="btn btn-primary btn-green" target="_blank">Checkout the docs</a>
+        </div>
+          <div class="fitpic imgBlock" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine"><img src="images/jenga-platform.svg" alt="Jenga Web Services for Developers"></div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section marginbottom">
+  <div class="container">
+    <div class="row row-flex">
+      <div class="col-lg-12 text-center platform-text" data-aos="fade-up" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <h2>Developer first platform</h2>
+      </div>
+      <aside class="col-lg-5 col-md-6" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="cardBlock">
+        <div class="card tab-card">
+        <div class="card-header tab-card-header">
+          <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link" id="curl-tab" data-toggle="tab" href="#curl" role="tab" aria-controls="Curl" aria-selected="true">Curl</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="python-tab" data-toggle="tab" href="#python" role="tab" aria-controls="Python" aria-selected="false">Python</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="javascript-tab" data-toggle="tab" href="#javascript" role="tab" aria-controls="Javascript" aria-selected="false">Javascript</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="ruby-tab" data-toggle="tab" href="#ruby" role="tab" aria-controls="Ruby" aria-selected="false">Ruby</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="curl" role="tabpanel" aria-labelledby="curl-tab">
+            <img src="images/Screen-Shot2.png" alt="Jenga Web services">            
+          </div>
+          <div class="tab-pane fade" id="python" role="tabpanel" aria-labelledby="python-tab">
+             <img src="images/Screen-Shot2.png" alt="Jenga Web services">             
+          </div>
+          <div class="tab-pane fade" id="javascript" role="tabpanel" aria-labelledby="javascript-tab">
+             <img src="images/Screen-Shot2.png" alt="Jenga Web services">            
+          </div>
+          <div class="tab-pane fade" id="ruby" role="tabpanel" aria-labelledby="ruby-tab">
+             <img src="images/Screen-Shot2.png" alt="Jenga Web services">          
+          </div>
+
+        </div>
+      </div>
+    </div>
+      </aside>
+
+      <aside class="col-lg-7 col-md-6" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <div class="cardBlock cardBlock-pd">
+        <div class="row">
+          <aside class="col-lg-5 col-md-6">
+            <div class="imgBlock">
+              <img src="images/jenga-activity.svg" alt="Jenga Web Services for Developers">
+            </div>
+          </aside>
+          <aside class="col-lg-7 col-md-6">
+            <p>JengaAPIs was built with the developer in mind. We want you to focus on doing what you do best. Build great products. We do the rest of the heavy lifting.</p>
+            <a href="https://developer.jengaapi.io/" class="btn btn-primary btn-purple" target="_blank">Checkout the docs</a> 
+          </aside>
+        </div>
+      </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section-->
+<footer class="mainfooter">
+  <div class="container">
+    <div class="row">
+
+      <article class="col-md-4">
+        <div class="row">
+          <div class="footer-content footerlogo">
+            <img src="images/jenga-logo-footer.svg" alt="Jenga Web Services for Developers">
+            <p>Finserve Africa is a Subsidiary of Equity Group Holding PLC</p>
+                <div id="circ">
+                <ul>
+                <li class="animated zoomIn">
+                <a href="https://www.facebook.com/FinserveOfficial/" class="icon" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li class="animated zoomIn delayone">
+                <a href="https://twitter.com/Finserve_Africa" class="icon" target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="animated zoomIn delaytwo">
+                <a href="https://www.instagram.com/finserveofficial/" class="icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li class="animated zoomIn delaythree">
+                <a href="https://www.linkedin.com/in/finserve-africa-922277162/" class="icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <article class="col-md-8">
+        <div class="row">
+      <div class="col-md-4">
+        <div class="footer-content">
+          <h3>APIs</h3>     
+          <ul>
+            <li><a href="sendmoney.php">Send Money</a></li>
+            <li><a href="recievepays.php">Receive Payments</a></li>
+            <li><a href="buygoods.php">Buy Goods, Pay Bills, Get Airtime</a></li>
+            <li><a href="loans.php">Credit</a></li>
+            <li><a href="regtech.php">RegTech: KYC, AML & CDD</a></li>
+            <li><a href="accountaapi.php">Account Services</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4" >
+        <div class="footer-content">
+          <h3>Company</h3>
+          <ul>
+            <li> <a href="http://finserve.africa/" target="_blank">About Finserve</a></li>
+            <!-- <li><a href="http://finserve.africa/" target="_blank">Careers</a></li> -->
+            <li><a href="http://finserve.africa/media-center.php" target="_blank">Media</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4" >
+        <div class="footer-content">
+          <h3>Resources</h3>
+          <ul>
+            <li> <a href="https://support.jengahq.io/hc/en-us/categories/4781880496913-FAQs">FAQs</a></li>
+            <li> <a href="https://support.jengahq.io" target="_blank">Contact Us</a></li>
+            <!-- <li><a href="">Contacts</a></li> -->
+            <li><a href="images/finserve-privacy-policy.pdf" target="_blank">Privacy & Terms</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <div class="col-lg-12 text-center">
+    <div class="btmfooter">
+    <p>Copyright &copy; Finserve Africa</p>
+  </div>
+  </div>
+</div>
+</div>
+</footer>
+
+<!-- LinkedIn Tag -->
+
+<script type="text/javascript">
+
+_linkedin_partner_id = "4480953";
+
+window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+
+window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+
+</script><script type="text/javascript">
+
+(function(l) {
+
+if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+
+window.lintrk.q=[]}
+
+var s = document.getElementsByTagName("script")[0];
+
+var b = document.createElement("script");
+
+b.type = "text/javascript";b.async = true;
+
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+
+s.parentNode.insertBefore(b, s);})(window.lintrk);
+
+</script>
+</div>
+
+
+
+<!-- jQuery --> 
+
+<script src="/jquery" type="text/Javascript"></script> 
+<script src="/main" type="text/Javascript"></script>
+
+<!-- Global site tag (gtag) - Google Ads: 939215125 --> <amp-analytics type="gtag" data-credentials="include"> <script type="application/json"> { "vars": { "gtag_id": "AW-939215125", "config": { "AW-939215125": { "groups": "default" } } }, "triggers": { } } </script> </amp-analytics>
+
 </body>
 </html>
